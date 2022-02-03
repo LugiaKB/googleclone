@@ -7,4 +7,12 @@
 .return {
   text-align: right;
 }
+
+.searchbut {
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 500px;
+}
 /*# sourceMappingURL=style.css.map */
