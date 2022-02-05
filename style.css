@@ -6,15 +6,45 @@
 
 .return {
   text-align: right;
+  color: white;
+  margin: 15px;
 }
 
-.searchbut {
-  padding: 20px;
+.return button {
+  background-color: #0d6efd;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.return button:hover {
+  background-color: #6595d8;
+  color: white;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
 }
 
 input[type="text"] {
   width: 500px;
   height: 30px;
-  border-color: blue;
+  border-color: #0d6efd;
+  border-radius: 5px;
+}
+
+input[type="text"]:enabled {
+  border-color: #0d6efd;
+}
+
+input[type='submit'] {
+  background-color: #0d6efd;
+  border-color: transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+input[type='submit']:hover {
+  background-color: #6595d8;
+  color: white;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
 }
 /*# sourceMappingURL=style.css.map */
