@@ -55,3 +55,15 @@ input[type='submit']:hover {
     text-align: center;
     margin: 40px;
 }
+
+.advance {
+    padding: 60px;
+
+    label {
+        padding: 20px;
+    }
+
+    input[type='submit'] {
+        text-align: center;
+    }
+}

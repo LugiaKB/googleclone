@@ -51,4 +51,16 @@ input[type='submit']:hover {
   text-align: center;
   margin: 40px;
 }
+
+.advance {
+  padding: 60px;
+}
+
+.advance label {
+  padding: 20px;
+}
+
+.advance input[type='submit'] {
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
