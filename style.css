@@ -57,10 +57,32 @@ input[type='submit']:hover {
 }
 
 .advance label {
-  padding: 20px;
+  padding: 15px;
 }
 
-.advance input[type='submit'] {
-  text-align: center;
+.adv {
+  color: white;
+  margin: 15px;
+}
+
+.adv button {
+  background-color: #0d6efd;
+  border-color: transparent;
+  border-radius: 5px;
+  color: white;
+  float: right;
+}
+
+.adv button:hover {
+  background-color: #6595d8;
+  color: white;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.adv .alogo {
+  float: left;
+  width: 10%;
+  height: 10%;
 }
 /*# sourceMappingURL=style.css.map */

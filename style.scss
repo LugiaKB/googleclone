@@ -3,6 +3,7 @@ $returncolor: white;
 $searchcolor: rgb(13, 110, 253);
 $hovercolor: #6595d8;
 $logosize: 60%;
+$alogosize: 10%;
 
 .searchform {
     text-align: center;
@@ -60,10 +61,32 @@ input[type='submit']:hover {
     padding: 60px;
 
     label {
-        padding: 20px;
+        padding: 15px;
     }
 
-    input[type='submit'] {
-        text-align: center;
+}
+
+.adv {
+    color: $returncolor;
+    margin: 15px;
+
+    button {
+        background-color: $searchcolor;
+        border-color: transparent;
+        border-radius: 5px;
+        color: $returncolor;
+        float: right;
+    }
+
+    button:hover {
+        background-color: $hovercolor;
+        color: white;
+        transition: 0.25s;
+    }
+
+    .alogo {
+        float: left;
+        width: $alogosize;
+        height: $alogosize;
     }
 }
